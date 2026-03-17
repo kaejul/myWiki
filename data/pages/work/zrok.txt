@@ -1,0 +1,7 @@
+Share a public folder in computer
+
+  zrok share public --backend-mode web .
+
+Share local server publicly
+
+  zrok share public localhost:4000

@@ -24,15 +24,15 @@
 /conf/plugin_lang/*
 /conf/plugins.local.*
 /conf/tpl/*
-# /data/attic/*
+/data/attic/*
 /data/cache/*
-# /data/index/*
+/data/index/*
 # /data/locks/*
 /data/log/*
 # /data/media/*
 # /data/media_meta/*
-# /data/media_attic/*
-# /data/meta/*
+/data/media_attic/*
+/data/meta/*
 /data/tmp/*
 # /data/pages/*
 !data/pages/wiki/
