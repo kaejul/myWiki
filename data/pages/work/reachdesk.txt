@@ -1,0 +1,39 @@
+====== Salesforce App creation ======
+
+
+
+====== Create project ======
+
+  sf project generate --name
+
+===== Fetch Metadata files =====
+====== Custom Object ======
+  sf project retrieve start --metadata=CustomObject:object_name --target-org=rd-dev
+
+====== Lightning App Page ======
+  sf project retrieve start --metadata=FlexiPage:Reachdesk_gift_Record_Page --target-org=rd-dev
+
+====== Create tab metadata ======
+  sf project retrieve start --metadata=CustomTab:gift__c --target-org=rd-dev
+
+====== Permission Set ======
+
+  sf project retrieve start --metadata=PermissionSet:name --target-org=rd-dev
+
+
+====== Create package and package version ======
+  sf package create --name "POC Reachdesk" --path force-app --package-type Managed
+
+  sf package version create --package "POC Reachdesk" --code-coverage --installation-key reachdesk --wait 10
+
+===== Create scratch org (To test package install) =====
+  sf org create scratch --definition-file config/project-scratch-def.json --no-namespace --no-ancestors --alias scratch-org
+
+==== Install package ====
+  sf package install --package "POC Reachdesk@0.1.0-1" --target-org scratch-org --installation-key reachdesk --wait 10 --publish-wait 10
+
+=== Open Scratch Org ===
+  sf org open --target-org scratch-org
+
+== login ==
+  sf org login web --set-default-dev-hub
