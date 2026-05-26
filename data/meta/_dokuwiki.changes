@@ -1,8 +1,3 @@
-1744019321	172.19.0.1	E	work:psql				57
-1744019338	172.19.0.1	E	work:psql				3
-1744019361	172.19.0.1	E	work:psql				-1
-1744019406	127.0.0.1	E	start		external edit		0
-1744019408	127.0.0.1	E	work:psql		external edit		0
 1744722988	172.19.0.1	E	start				44
 1744723089	172.19.0.1	C	work:zrok		created		140
 1744724361	172.19.0.1	E	work:psql				51
@@ -23,3 +18,7 @@
 1779448691	192.168.65.1	E	start				36
 1779448720	192.168.65.1	E	start		[Share] 		9
 1779448922	192.168.65.1	C	work:reachdesk		created		1305
+1779814704	192.168.65.1	E	start		[Share] 		56
+1779814754	192.168.65.1	E	start		[Share] 		-2
+1779814776	192.168.65.1	E	start		[Share] 		-1
+1779814814	192.168.65.1	C	work:amazon		created		579

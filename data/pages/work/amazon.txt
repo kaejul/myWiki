@@ -1,0 +1,13 @@
+deve ser só ligar o mock server
+talvez precises do auth na mesma
+
+https://github.com/Reachdesk/reachdesk#mock-server
+
+E no .env: AMAZON_BUSINESS_US_API_URL=http://localhost:3002/amazon
+Se não der, tens de fazer connect com a Amazon no vendor portal (da Brand AMAZON_US)
+assim por alto acho que é isto!
+
+https://github.com/Reachdesk/reachdesk/wiki/Setting-Up-Marketplace-Amazon-Mock-Server-%28US---UK%29
+https://github.com/Reachdesk/reachdesk/wiki/Setting-Up-Marketplace-Amazon-Locally-%28US%29
+
+eu iria aí para o + mock server, mas estão aí dois artigos wiki bons para isso

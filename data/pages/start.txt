@@ -30,3 +30,6 @@
 
 == Salesforce ==
 [[work:reachdesk#salesforce|CLI commands]]\\
+
+== Amazon ==
+[[work:amazon#amazon|Setup locally]]\\
